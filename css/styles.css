@@ -6,11 +6,11 @@
 }
 /* ----------------------------------------------------------------------------- COLORS ------------------------------------------------------------------------- */
 :root {
-    --berry:#ac3616;
-    --pine:#5e6742;
-    --branch:#896663;
-    --wall:#d5dade;
-    --leaf:#a1a6a0;
+    --berry:darkred;
+    --pine:olive;
+    --branch:saddlebrown;
+    --wall:whitesmoke;
+    --leaf:dimgray;
 }
 /* ----------------------------------------------------------------------------- BACKGROUND ------------------------------------------------------------------------- */
 body {
@@ -20,19 +20,17 @@ body {
 main {
     border-right: solid transparent 1rem;
     border-left: solid transparent 1rem;
-    border-image: linear-gradient(brown, darkgreen) 1;
+    border-image: linear-gradient(var(--berry), var(--leaf)) 1;
     padding-top: 2rem;
     padding-bottom: 3rem;
 }
 /* ----------------------------------------------------------------------------- NAVIGATION ------------------------------------------------------------------------- */
-nav {
-    padding: 1.5rem;
-}
 .nav-menu {
     display: flex;
     list-style: none;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .nav-menu li {
     margin: 0 0.5rem;
@@ -52,24 +50,18 @@ nav {
     color: white;
 }
 .nav-container {
-    background-color: brown;
+    background-color: rgba(100, 50, 50, 0.5);
     padding: 0rem 1rem;
     position: fixed;
-    width: 100%;
-    top: 0;
+    width: 21%;
+    top: 125px;
     z-index: 1000;
     box-shadow: 0 2px 5px rgba(0,0,0,0.5);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 0.5rem brown ridge;
-}
-.logo {
-    color: white;
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-left: 2rem;
-    text-decoration: underline;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* ----------------------------------------------------------------------------- HERO IMAGE ------------------------------------------------------------------------- */
 .hero {
