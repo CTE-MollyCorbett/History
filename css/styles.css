@@ -6,11 +6,12 @@
 }
 /* ----------------------------------------------------------------------------- COLORS ------------------------------------------------------------------------- */
 :root {
-    --berry:darkred;
-    --pine:olive;
-    --branch:saddlebrown;
-    --wall:whitesmoke;
+    --berry:rgb(66, 0, 0);
+    --pine:rgb(92, 92, 5);
+    --branch:rgb(87, 45, 16);
+    --wall:rgb(218, 218, 218);
     --leaf:dimgray;
+    --black: black;
 }
 /* ----------------------------------------------------------------------------- BACKGROUND ------------------------------------------------------------------------- */
 body {
@@ -18,9 +19,6 @@ body {
     background-color: var(--leaf);
 }
 main {
-    border-right: solid transparent 1rem;
-    border-left: solid transparent 1rem;
-    border-image: linear-gradient(var(--berry), var(--pine)) 1;
     padding-top: 2rem;
     padding-bottom: 3rem;
 }

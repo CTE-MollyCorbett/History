@@ -6,19 +6,17 @@
 }
 /* ----------------------------------------------------------------------------- COLORS ------------------------------------------------------------------------- */
 :root {
-    --berry:darkred;
-    --pine:olive;
-    --branch:saddlebrown;
-    --wall:whitesmoke;
+    --berry:rgb(66, 0, 0);
+    --pine:rgb(92, 92, 5);
+    --branch:rgb(87, 45, 16);
+    --wall:rgb(218, 218, 218);
     --leaf:dimgray;
+    --black: black;
 }
 /* ----------------------------------------------------------------------------- BACKGROUND ------------------------------------------------------------------------- */
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--leaf);
-    border-right: solid transparent 1rem;
-    border-left: solid transparent 1rem;
-    border-image: linear-gradient(var(--berry), var(--pine)) 1;
 }
 main {
     padding-top: 0.7rem;
@@ -27,7 +25,7 @@ main {
 /* ----------------------------------------------------------------------------- NAVIGATION ------------------------------------------------------------------------- */
 nav {
     padding: 1.5rem;
-    background-color: brown;
+    background-color: var(--berry);
 }
 .nav-menu {
     display: flex;
@@ -41,19 +39,19 @@ nav {
 .nav-menu a {
     text-decoration: none;
     color: #dfdfdf;
-    background-color: rgb(200,20,20);
+    background-color: var(--berry);
     display: block;
     border-radius: 5px;
     padding: 0.5rem;
     font-size: 1.2rem;
-    transition: all 0.5s ease;
+    transition: all 0.3s ease;
 }
 .nav-menu a:hover {
-    background: red;
-    color: white;
+    color: gold;
+    text-decoration: underline;
 }
 .nav-container {
-    background-color: brown;
+    background-color: var(--berry);
     padding: 0rem 1rem;
     position: fixed;
     width: 100%;
@@ -63,7 +61,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 0.5rem brown ridge;
 }
 .logo {
     color: white;
@@ -107,11 +104,12 @@ nav {
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 1rem;
+    margin-bottom: 55rem;
     padding: 0 10px;
     padding-bottom: 3rem;
 }
 .card-large {
-    background: white;
+    background: black;
     border-radius: 12px;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
@@ -165,7 +163,6 @@ footer {
     background-color: var(--branch);
     width: 100%;
     padding: 1.5rem 0;
-    border-top: ridge var(--berry) 0.2rem;
 }
 footer p {
     color: var(--wall);
