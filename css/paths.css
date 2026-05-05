@@ -85,7 +85,46 @@ nav {
     margin-bottom: 15px;
 }
 .c1 {
-    background-image: url(../images/john-cameron-mju7vUxTq6A-unsplash.jpg);
+    background-image: url(../images/day1hostage.jpg);
+}
+.s1 {
+    background-image: url(../images/Revolutionary_occupation_of_U.S._embassy_Title_of_Islamic_Republican_newspaper_in_November_5\,_1979.jpg);
+}
+.s2 {
+    background-image: url(../images/ThanksCanada.JPG);
+}
+.s3 {
+    background-image: url(../images/gasMasks.jpg);
+}
+.s4 {
+    background-image: url(../images/gunsInDrawer.jpg);
+}
+.s5 {
+    background-image: url(../images/Newspapers.jpg);
+}
+.s6 {
+    background-image: url(../images/protestAgainstAmerica.jpg);
+}
+.s7 {
+    background-image: url(../images/life_preserver.jpg);
+}
+.s8 {
+    background-image: url(../images/crowd.jpg);
+}
+.s9 {
+    background-image: url(../images/crowbarAtWindow.jpg);
+}
+.s10 {
+    background-image: url(../images/againstAmericaandCarter.jpg);
+}
+.s11 {
+    background-image: url(../images/confinement.jpg);
+}
+.s12 {
+    background-image: url(../images/shredder.jpg);
+}
+.s13 {
+    background-image: url(../images/hostagesReleased.jpg);
 }
 /* ----------------------------------------------------------------------------- IMAGE BEFORE ------------------------------------------------------------------------- */
 .img::before {
@@ -155,6 +194,12 @@ nav {
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
     background-color:forestgreen;
+}
+.end {
+    background-color: rgb(110, 0, 0);
+}
+.end:hover {
+    background-color: rgb(150, 0, 0);
 }
 /* ----------------------------------------------------------------------------- FOOTER ------------------------------------------------------------------------- */
 footer {
